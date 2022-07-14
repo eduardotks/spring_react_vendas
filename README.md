@@ -12,7 +12,7 @@ O projeto será implantado na nuvem utilizando os sitemas do Netlify e Heroku.
 ### Instalação:
 Para rodar o frontend da aplicação, na pasta frontend abrir um terminal e digitar:
 
-` `
+`yarn dev`
 
 
 Para rodar o backend no Spring Tool, abrir o programa e importar o projeto na opção Maven > existing maven projects e escolher pasta backend, esperar a aplicação instalar as dependências.
