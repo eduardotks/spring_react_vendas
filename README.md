@@ -17,4 +17,6 @@ Para rodar o frontend da aplicação, na pasta frontend abrir um terminal e digi
 
 Para rodar o backend no Spring Tool, abrir o programa e importar o projeto na opção Maven > existing maven projects e escolher pasta backend, esperar a aplicação instalar as dependências.
 
-### Link do projeto
+### Link do projeto hospedado no Netlify
+
+<a href="https://dsmeta-eduardo.netlify.app/" target="_blank">Acesse aqui!!!</a>
