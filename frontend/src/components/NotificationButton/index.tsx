@@ -2,14 +2,15 @@
 import icon from "../../assets/notification-icon.svg"
 import axios from 'axios';
 import{ BASE_URL } from '../../utils/request';
+import { toast } from 'react-toastify';
 
 type Props = {
   saleId: number;
 }
 
 function handleClick(id : number) {
-  axios(`${BASE_URL}/sales/${id}/notify`).then((response) => {
-    console.log(response);
+  axios(`${BASE_URL}/sales/${id}/notification`).then((response) => {
+    toast.info("Enviado com sucesso!")
   })
 }
 
